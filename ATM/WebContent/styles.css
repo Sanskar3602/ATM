@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	
+}
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(0, 0, 0, 0.55), 
+      rgba(0, 0, 0, 0.55)
+    ),
+    /* your image */
+    url('https://images.unsplash.com/photo-1601597111158-2fceff292cdc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');;
+	
+  /* Full height */
+	  height: 100%;
+	  width: 100%;
+	
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  color: white;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+.headingval{
+	font-weight: 600;
+	color: white;
+}
+.subheadingval{
+	font-weight: 500;
+	color: white;
+}
+h1   {color: blue;}
+p    {cogilor: red;}
+/*
+.form-login {
+	color: white;
+	display: block;
+	margin: auto auto;
+	height: auto;
+	width: 120%;
+	
+	padding: 2rem 2rem;
+		background: rgb(57,2,82);
+background: linear-gradient(156deg, rgba(57,2,82,1) 0%, rgba(0,74,98,1) 100%);
+	backdrop-filter: blur(10px);
+	border-radius: 12px;
+	
+}
+*/
+.buttons-maincontainer{
+	width: 50%;
+	display: inline-block;
+	margin: auto auto;
+	height: auto;
+	background: rgb(57,2,82);
+background: linear-gradient(156deg, rgba(57,2,82,1) 0%, rgba(0,74,98,1) 100%);
+	backdrop-filter: blur(10px);
+	border-radius: 12px;
+	padding: 2rem 2rem;
+}
+.loginid_input{
+	border-radius: 8px;
+	border: 1px solid gray;
+	padding: .3rem .3rem;
+}
+
+
+.inputs{
+	border-radius: 8px;
+	border: 1px solid gray;
+	padding: .3rem .3rem;
+}
+
+.pass_input{
+	border-radius: 8px;
+	border: 1px solid gray;
+	padding: .3rem .3rem;
+}
+
+.submit_login_btn{
+	margin-top: 1.6rem;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	padding: .5rem 1rem;
+	background: rgb(163,162,162);
+	background: linear-gradient(156deg, rgba(163,162,162,1) 0%, rgba(0,3,4,1) 100%);
+	color: white;
+	border: none;
+	border-radius: 8px;
+}
+
+.submit_sign_btn{
+	text-decoration: none;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	padding: .5rem 1rem;
+	background: rgb(163,162,162);
+	background: linear-gradient(156deg, rgba(163,162,162,1) 0%, rgba(0,3,4,1) 100%);
+	color: white;
+	border: none;
+	border-radius: 8px;
+}
+
+.table_row{
+margin-bottom: .3rem;
+}
+
+.input_container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: .5rem;
+
+}
+
+.icon_container{
+margin-bottom: 1rem;
+}
+
+.image_icon{
+border: 2px solid black;
+height: 1.5rem;
+padding: .4rem;
+background: rgb(2,196,187);
+background: linear-gradient(156deg, rgba(2,196,187,1) 0%, rgba(112,2,212,1) 100%);
+border-radius: 50%;
+
+}
+
+.center{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.button_container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+
+.link_button{
+	cursor: pointer;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	padding: .5rem 1rem;
+	background: rgb(185,10,230);
+background: linear-gradient(156deg, rgba(185,10,230,1) 0%, rgba(0,212,255,1) 100%);
+font-weight: 600;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	transition: all .3s ease-in;
+}
+.link_button:hover{
+	position: relative;
+	bottom: 2px;
+	box-shadow: 0px 2px 4px #000;
+}
+
+//TABLE STYLING
+table, td, th {
+  border: 1px solid white;
+  padding: .5rem;
+}
+.table-trans{
+	margin-top: 1rem;
+	color: white;
+	background: rgb(0,115,129);
+background: linear-gradient(124deg, rgba(0,115,129,1) 0%, rgba(117,0,122,1) 100%);
+	border-radius: 8px;
+
+}
